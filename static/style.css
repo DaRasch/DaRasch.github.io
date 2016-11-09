@@ -540,6 +540,9 @@ table.toc td {
 #sidebar > label > svg {
   width: 60px;
   height: 60px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 #sidebar > label > svg > rect {
   transition: transform 0.3s linear;
